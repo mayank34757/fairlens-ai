@@ -1,0 +1,82 @@
+# ============================================================
+# FairLens AI — Root .gitignore
+# ============================================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# ----- Environment Variables (NEVER commit secrets) -----
+.env
+.env.*
+!.env.example
+!.env.production.example
+!frontend/.env.example
+!frontend/.env.production.example
+!backend/.env.example
+
+# ----- Node / Frontend -----
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.cache/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----- IDEs & Editors -----
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- Misc -----
+*.bak
+*.tmp
+*.orig
